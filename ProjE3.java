@@ -5,7 +5,7 @@ public class ProjE3{
 		System.out.println("Answer: "+bruteForce(product, 2)); //6875
 	}
 	public static long bruteForce(long num, int startCheck){
-		for(int i = startCheck; i<(int)(Math.sqrt(num)); i++){
+		for(int i = startCheck; i<(int)(Math.sqrt(num))+1; i++){//make sure you add one to sqrt to round up
 			if(num%i == 0){
 				num = num/i;
 				System.out.println(num);
