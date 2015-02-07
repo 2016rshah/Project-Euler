@@ -6,6 +6,6 @@ public class ProjE1{
 				total+=i;
 			}
 		}
-		System.out.println("Final total was: " + total);	
+		System.out.println("Answer: " + total);	
 	}
 }

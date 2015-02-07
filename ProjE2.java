@@ -11,6 +11,6 @@ public class ProjE2{
 				total+=b;
 			}
 		}
-		System.out.println("Total is: " + total);
+		System.out.println("Answer: " + total);
 	}
 }
