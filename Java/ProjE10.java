@@ -15,4 +15,4 @@ public class ProjE10{
 				return false;
 		return true;
 	}
-}
+} 

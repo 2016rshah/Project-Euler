@@ -13,4 +13,4 @@ public class ProjE2{
 		}
 		System.out.println("Answer: " + total);
 	}
-}
+} 

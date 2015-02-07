@@ -27,4 +27,4 @@ public class ProjE12{
 				numFactors+=2;
 		return numFactors;
 	}
-}
+} 

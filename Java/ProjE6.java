@@ -16,4 +16,4 @@ public class ProjE6{
 		}
 		return sum*sum;
 	}
-}
+} 

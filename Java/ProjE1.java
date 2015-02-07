@@ -8,4 +8,4 @@ public class ProjE1{
 		}
 		System.out.println("Answer: " + total);	
 	}
-}
+} 
