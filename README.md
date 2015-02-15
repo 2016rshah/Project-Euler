@@ -2,7 +2,7 @@
 My own solutions to Project Euler problems. 
 
 ##All Solved Problems:
-Problems 1-16
+Problems 1-17
  
 ##Solved In Java:
  - Problems 1-12
@@ -12,6 +12,7 @@ Problems 1-16
  - Problem 13
  - Problem 15
  - Problem 16
+ - Problem 17
 
 ##Solved In Haskell
  - Problem 1
