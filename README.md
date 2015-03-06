@@ -9,10 +9,7 @@ Problems 1-17
  - Problem 14
 
 ##Solved In Python
- - Problem 13
- - Problem 15
- - Problem 16
- - Problem 17
+ - Problem 13-17
 
 ##Solved In Haskell
  - Problem 1
