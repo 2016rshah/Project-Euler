@@ -12,10 +12,7 @@ Problems 1-17
  - Problem 13-17
 
 ##Solved In Haskell
- - Problem 1
- - Problem 2
- - Problem 4
- - Problem 5
+ - Problem 1-5
  - Problem 9
  
 ##Solved in C++
