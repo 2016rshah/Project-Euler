@@ -5,13 +5,7 @@ collapseAllRows :: [[Int]] -> [[Int]]
 collapseAllRows triangle = if length triangle == 1
 						then triangle
 						else
-							collapseAllRows $ (rmTwoRows triangle) ++ ([collapseRow (sTL triangle) (last triangle)])
-
-rmTwoRows :: [[Int]] -> [[Int]]
-rmTwoRows triangle = init $ init triangle
-
-sTL :: [[Int]] -> [Int]
-sTL triangle = last $ init triangle
+							collapseAllRows $ ((init (init triangle))) ++ ([collapseRow ((last (init triangle))) (last triangle)])
 
 digitify :: String -> [[Int]]
 digitify triangle = [[read x | x <- words line] | line <- lines triangle]
