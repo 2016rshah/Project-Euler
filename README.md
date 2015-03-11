@@ -2,8 +2,7 @@
 My own solutions to Project Euler problems. 
 
 ##All Solved Problems:
-- Problems 1-18
-- Problem 20
+- Problems 1-20
 - Problem 67
  
 ##Solved In Java:
@@ -24,3 +23,4 @@ My own solutions to Project Euler problems.
 ##Solved in C++
  - Problem 1
  - Problem 2
+ - Problem 19
