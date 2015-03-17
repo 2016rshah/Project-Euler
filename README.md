@@ -2,12 +2,13 @@
 My own solutions to Project Euler problems. 
 
 ##All Solved Problems:
-- Problems 1-20
+- Problems 1-21
 - Problem 67
  
 ##Solved In Java:
  - Problems 1-12
  - Problem 14
+ - Problem 21
 
 ##Solved In Python
  - Problem 13-18
