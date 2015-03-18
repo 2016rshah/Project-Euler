@@ -2,7 +2,7 @@
 My own solutions to Project Euler problems. 
 
 ##All Solved Problems:
-- Problems 1-21
+- Problems 1-22
 - Problem 67
  
 ##Solved In Java:
@@ -12,6 +12,7 @@ My own solutions to Project Euler problems.
 
 ##Solved In Python
  - Problem 13-18
+ - Problem 22
  - Problem 67
 
 ##Solved In Haskell
