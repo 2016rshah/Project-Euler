@@ -1,11 +1,11 @@
 # Project-Euler
 My own solutions to Project Euler problems. 
 
-##All Solved Problems:
-- Problems 1-22
-- Problem 67
+##All Solved Problems
+ - Problems 1-22
+ - Problem 67
  
-##Solved In Java:
+##Solved In Java
  - Problems 1-12
  - Problem 14
  - Problem 21
