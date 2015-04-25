@@ -16,7 +16,8 @@ My own solutions to Project Euler problems.
  - Problem 67
 
 ##Solved In Haskell
- - Problem 1-11
+ - Problem 1-10
+ - Problem 12
  - Problem 18
  - Problem 20
  - Problem 67
