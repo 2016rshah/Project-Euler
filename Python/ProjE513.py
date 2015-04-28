@@ -10,22 +10,26 @@ def median(xs):
 def perms(n):
 	xs = [[a, b, c] for c in range(2, n+1, 2) for b in range(1, c+1) for a in range(1, b+1) if(a+b > c and a+c > b and b+c > a)]
 	xs = []
-	for c in range(1, n+1):
+	for c in range(2, n+1, 2):
 		for b in range(1, c+1):
-			for a in range(1, b+1):
-				if(a+b > c and a+c > b and b+c > a):
-					if(c%2 == 0): #solutions always have even c values
-						xs.append([a, b, c])
+			if(b%2==0):
+				for a in range(2, b+1, 2):
+					if(a+b > c and a+c > b and b+c > a):
+							xs.append([a, b, c])
+			elif(b%2==1):
+				for a in range(1, b+1, 2):
+					if(a+b > c and a+c > b and b+c > a):
+							xs.append([a, b, c])
 	#print(xs)
 	return xs
 
 def main():
 	solutions = []
-	permutations = perms(500)
+	permutations = perms(50)
 	#print(len(permutations))
 	for permutation in permutations:
 		if median(permutation).is_integer():
-			#print(permutation)
+			print(permutation)
 			solutions.append(permutation)
 	print(len(solutions))
 
