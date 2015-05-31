@@ -15,3 +15,16 @@ orderedListOfPerms :: Integer -> [Integer]
 orderedListOfPerms n = sort $ listsToNums $ nthPermutations n
 
 main = print $ (orderedListOfPerms 9) !! (1000000-1) -- get millionth minus one because zero indexed
+
+{--
+--Alternate Solution. Takes about two seconds longer and I'm not entirely sure why. 
+
+import Data.List
+import Data.Char
+
+solutions :: Char -> [String]
+solutions n = sort $ (permutations ['0'..n])
+
+main = print $ (solutions '9') !! (1000000-1) -- get millionth minus one because zero indexed
+
+--}
