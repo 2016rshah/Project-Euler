@@ -1,0 +1,1 @@
+main = print $ 100 * 12 `div` 7 -- Just a bit of arithmetic
