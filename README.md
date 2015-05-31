@@ -3,6 +3,7 @@ My own solutions to Project Euler problems.
 
 ##All Solved Problems
  - Problems 1-22
+ - Problem 24
  - Problem 67
  
 ##Solved In Java
@@ -11,14 +12,15 @@ My own solutions to Project Euler problems.
  - Problem 21
 
 ##Solved In Python
- - Problem 13-18
+ - Problems 13-18
  - Problem 22
  - Problem 67
 
 ##Solved In Haskell
- - Problem 1-10
- - Problem 12-16
- - Problem 18-20
+ - Problems 1-10
+ - Problems 12-16
+ - Problems 18-20
+ - Problem 24
  - Problem 67
  
 ##Solved in C++
