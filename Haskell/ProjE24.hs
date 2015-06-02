@@ -4,7 +4,7 @@ nthPermutations :: Integer -> [[Integer]]
 nthPermutations n = permutations [0..n]
 
 listsToNums :: [[Integer]] -> [Integer]
-listsToNums xs = map digitsToNum xs
+listsToNums = map digitsToNum
 	where
 		--http://stackoverflow.com/a/1918515/3861396
 		digitsToNum :: [Integer] -> Integer
