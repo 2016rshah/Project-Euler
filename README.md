@@ -3,7 +3,7 @@ My own solutions to Project Euler problems.
 
 ##All Solved Problems
  - Problems 1-22
- - Problem 24
+ - Problems 24-25
  - Problem 67
  
 ##Solved In Java
@@ -20,7 +20,7 @@ My own solutions to Project Euler problems.
  - Problems 1-10
  - Problems 12-16
  - Problems 18-20
- - Problem 24
+ - Problems 24-25
  - Problem 67
  
 ##Solved in C++
