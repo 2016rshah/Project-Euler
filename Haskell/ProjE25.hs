@@ -6,4 +6,4 @@ fibs = 1:1:zipWith (+) fibs (tail fibs)
 --Which if added up will give 	[2,3,5,8,13..]
 --Which is the tail of the second list
 
-main = print $ length (takeWhile (\n -> (length (show n))<1000) fibs) + 1 
+main = print $ 1 + length $ takeWhile (\n -> (length (show n))<1000) fibs
